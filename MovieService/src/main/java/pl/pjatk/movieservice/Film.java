@@ -10,6 +10,9 @@ public class Film {
     private double rating;
     private String description;
 
+    public Film() {
+    }
+
     public Film(String name, String category, double rating, String description) {
         this.id = UUID.randomUUID();
         this.name = name;
